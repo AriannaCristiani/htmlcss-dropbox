@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    padding: 15px 0;
+}
+
 ul,
 ol {
     list-style: none;
@@ -67,12 +71,35 @@ body {
 /* layout-1 */
 
 .hero {
-    background-color: rgb(161, 186, 255);
+    background-color: rgb(184, 203, 255);
     display: flex;
     flex-wrap: wrap;
 }
 
+.title
 .col-100 {
     font-size: 35px;
-    padding: 50px 150px ;
+    width: 80%;
+}
+
+.col-30 {
+   width: 30%;
+}
+
+.col-30 > * {
+    padding-top: 15px;
+}
+
+.hero 
+.container-full {
+    width: 80%;
+}
+
+.button-cta {
+    padding: 5px 8px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+	background-color:rgb(80, 80, 255) ;
+	color: white;
 }
