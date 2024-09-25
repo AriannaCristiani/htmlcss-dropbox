@@ -16,6 +16,10 @@ ol {
     list-style: none;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /* navbar header */
 
 
@@ -58,4 +62,17 @@ ol {
 
 .navbar {
 	padding-top: 20px;
+}
+
+/* layout-1 */
+
+.hero {
+    background-color: rgb(161, 186, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100 {
+    font-size: 35px;
+    padding: 50px 150px ;
 }
