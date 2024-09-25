@@ -90,6 +90,12 @@ body {
     padding-top: 15px;
 }
 
+img {
+    
+    object-fit: cover;
+    
+}
+
 .hero 
 .container-full {
     width: 80%;
