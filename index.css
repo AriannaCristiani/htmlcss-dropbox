@@ -12,7 +12,7 @@ a {
 }
 
 p {
-    padding: 10px 0;
+    padding: 10px 0px;
 }
 
 ul,
@@ -195,6 +195,7 @@ card */
 	
 }
 
+
 .col-4.card {
     border: 1px solid rgb(168, 168, 168);
 	font-size: 12px;
@@ -218,4 +219,17 @@ card */
 .justify-around {
 	display: flex;
 	justify-content: space-around;
+}
+
+.justify-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-12.card {
+    border: 1px solid rgb(168, 168, 168);
+	font-size: 15px;
+	height: 200px;
+	width: 92%;
+	margin-top: 30px;
 }
