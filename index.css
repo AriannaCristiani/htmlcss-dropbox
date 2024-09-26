@@ -282,3 +282,13 @@ business*/
 	padding: 40px 15px;
 	margin-top: 30px;
 }
+
+.client {
+	padding: 40px 15px;
+	margin-top: 90px;
+	max-width: 400px;
+}
+
+.client > a {
+    font-size: 12px ;
+}
