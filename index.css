@@ -12,12 +12,16 @@ a {
 }
 
 p {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 ul,
 ol {
     list-style: none;
+}
+
+li {
+	padding: 10px 0px;
 }
 
 body {
@@ -79,7 +83,6 @@ img {
 }
 
 .main-header {
-	padding: 18px 14px;
 	font-size: 14px;
 }
 
@@ -178,7 +181,7 @@ card */
 }
 
 .actions > * {
-	padding: 5px 15px;
+	padding-right: 30px;
 	font-size: 12px;
 }
 
@@ -187,11 +190,32 @@ card */
     text-align: center;
 	font-size: 12px;
 	padding: 10px 20px;
-	border-bottom: 1px solid rgb(168, 168, 168);
+	border-bottom: 1px solid rgb(168, 168, 168) ;
+	margin-bottom: 30px;
+	
 }
 
 .col-4.card {
     border: 1px solid rgb(168, 168, 168);
 	font-size: 12px;
+	height: 700px;
+	width: 250px;
+	margin-top: 30px;
 }
 
+.link {
+	color: #0061ff;
+	text-decoration: underline;
+}
+
+.line {
+	border-top: 1px solid rgb(168, 168, 168);
+	width: 20%;
+	margin-top: 30px ;
+	margin-bottom: 30px;
+}
+
+.justify-around {
+	display: flex;
+	justify-content: space-around;
+}
