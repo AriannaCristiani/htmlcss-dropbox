@@ -233,3 +233,29 @@ card */
 	width: 92%;
 	margin-top: 30px;
 }
+
+/* layout-3 
+partner*/
+
+.btn-white {
+	display: inline-block;
+	background-color: var(--white);
+	color: rgb(119, 119, 119);
+	border: 1px solid  rgb(119, 119, 119);
+	line-height: 44px;
+	padding: 0px 16px;
+	text-align: center;
+}
+
+.col-7 {
+	width: 70%;
+	padding: 30px 40px;
+	margin-top: 30px;
+	
+}
+
+.col-3 {
+	width: 30%;
+	padding: 30px 20px;
+	margin-top: 100px;
+}
