@@ -126,7 +126,7 @@ img {
 }
 
 .col-4 {
-	width: calc(4 * 100% / 12);
+	width: 30%;
 }
 
 .col-8 {
